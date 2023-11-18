@@ -12,6 +12,10 @@ export default {
           "100%": { transform: "translateX(-100%)" },
         },
       },
+      backgroundImage: {
+        banner:
+          'url("https://cdn.pixabay.com/photo/2018/02/24/20/39/clock-3179167_1280.jpg")',
+      },
     },
 
     screens: {
