@@ -1,9 +1,9 @@
-import NavBar from "./components/NavBar/NavBar";
+import Home from "./views/Home";
 
 function App() {
   return (
     <>
-      <NavBar />
+      <Home />
       <div className="flex justify-center items-center">
         <p className="flex ">Hola soy prueba tecnica</p>
       </div>
