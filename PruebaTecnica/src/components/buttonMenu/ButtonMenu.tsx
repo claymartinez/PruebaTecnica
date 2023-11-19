@@ -10,7 +10,6 @@ interface ButtonMenuProps {
 
 const ButtonMenu: FC<ButtonMenuProps> = ({ name }) => {
   const [mostrarRelojes, setMostrarRelojes] = useState(false);
-  const lista = listas[name];
 
   const variantStyle =
     name === "Relojes"
@@ -39,7 +38,7 @@ const ButtonMenu: FC<ButtonMenuProps> = ({ name }) => {
 
       {mostrarRelojes && (
         <div>
-          <div className="origin-top- absolute left-0 w-40 shadow-lg bg-[#212529] ">
+          <div className="origin-top- absolute left-0 w-40 shadow-lg bg-[#212529] z-10">
             <div className="py-1">
               <ul>
                 {listas[name].map((opcion, index) => (
