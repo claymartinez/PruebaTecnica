@@ -1,5 +1,5 @@
 import FormatPrice from "../../utils/formatPrice";
-import Star from "../../assets/icons/star";
+import Star from "../../assets/icons/Star";
 import New from "../../assets/New";
 
 interface ProductCardProps {
