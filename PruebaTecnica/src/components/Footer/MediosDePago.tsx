@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import Amex from "../../assets/icons/Amex";
 import AmericanExpress from "../../assets/icons/AmericanExpress";
 import Maestro from "../../assets/icons/Maestro";

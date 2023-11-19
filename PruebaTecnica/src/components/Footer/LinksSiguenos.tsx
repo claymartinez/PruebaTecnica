@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import Facebook from '../../assets/icons/Facebook';
 import Instagram from '../../assets/icons/Instagram';
 import Pinterest from '../../assets/icons/Pinterest';

@@ -1,4 +1,3 @@
-import Facebook from "../../assets/icons/Facebook";
 
 const LinksRoutes = [
   {

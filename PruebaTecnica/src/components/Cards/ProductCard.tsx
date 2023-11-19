@@ -17,7 +17,6 @@ const ProductCard = ({
   price,
   offer,
   imageSrc,
-  id,
 }: ProductCardProps) => {
   return (
     <a
