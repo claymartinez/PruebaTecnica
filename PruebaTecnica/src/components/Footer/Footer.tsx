@@ -30,7 +30,7 @@ const Footer: FC<FooterProps> = ({}) => {
             </image>
           </div>
 
-          <div className="md:grid md:grid-cols-4 text-white order-1 md:order-2 flex flex-col">
+          <div className="md:grid md:grid-cols-4 text-white order-1 md:order-2 flex flex-col items-center md:items-start">
             <Links name="Invencible en detalle" />
 
             <Links name="Servicio al cliente" />
